@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .nav-item text-warning {
+    font-family: Wisdom-Script;
+  }
+  
+  section.page-image  {
+    background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
+    
+    
+  }
+  
+    @media (min-width: 768px){
+     .page-title {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+        font-family: 'Droid Serif Italic';
+        font-weight: bold;
+        }
+    }
+    @media (min-width: 768px){
+    .page-subtitle {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+        }
+    }
+    header.page-subtitle {
+        padding-top: 10.5rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        color: #fff;
+        background-position: center center;
+        background-size: cover;
+    }
+  
+  .services-top h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .services-top p {
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+  }
+  
+  .services-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 24px;
+  }
+  
+  .services-content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .services-content i.fas {
+    color: white;
+    background: #fed136;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+  }
+  
+  .portfolio {
+    background: #eff2f5;
+  }
+  
+  .h1 {
+    font-family: 'Monserrat';
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .h2 {
+    font-family: 'Droit Serif Italic';
+    font-size: 16px;
+  }
+  
+  .card-title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-title h4 {
+    font-family: 'Droit Serif Italic';
+    font-size: 14px;
+  }
+  
+  .footer-item {
+    font-family: 'Montserrat';
+    font-size: 14px;
+  }
+  
+  i.fas {
+    height: 40%;
+  }
+  
