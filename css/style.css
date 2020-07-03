@@ -1,3 +1,10 @@
+/*!
+ * Bootstrap Grid v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 html {
     box-sizing: border-box;
     -ms-overflow-style: scrollbar;
@@ -21,37 +28,81 @@ html {
     font-family: Wisdom-Script;
   }
   
-  section.page-image  {
-    background-image: url("https://d-pt.ppstatic.pl/k/r/1/47/3f/59ce1854cc131_o.jpg?1520628877");
-    
+  .page-image  {
+    height: 100vh;
+    background-image: url("https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/header-bg.jpg?raw=true");
+    background-size: cover;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+     
+  }
+
+  .splash-inner {
+    margin: 24px 0;
+    max-width: 70%;
+    text-align: center;
     
   }
   
-    @media (min-width: 768px){
-     .page-title {
-        font-size: 2.25rem;
-        line-height: 2.25rem;
-        margin-bottom: 2rem;
-        font-family: 'Droid Serif Italic';
-        font-weight: bold;
+  @media (min-width: 768px){
+  .page-title {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    font-family: 'Droid Serif Italic';
+    font-weight: bold;
+    }
+  }
+
+.page-title {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Droid Serif";
+    text-align: center;
+  }
+
+@media (min-width: 768px){
+ .page-subtitle {
+    font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
         }
     }
-    @media (min-width: 768px){
-    .page-subtitle {
-        font-size: 4.5rem;
-        font-weight: 700;
-        line-height: 4.5rem;
-        margin-bottom: 4rem;
-        }
+ .page-subtitle {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #ffffff;
+  background-position: center center;
+  background-size: cover;
     }
-    header.page-subtitle {
-        padding-top: 10.5rem;
-        padding-bottom: 6rem;
-        text-align: center;
-        color: #fff;
-        background-position: center center;
-        background-size: cover;
-    }
+
+.page-subtitle {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat";
+}
+
+.page-subtitle {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+  }
+@media (min-width: 768px) {
+ .page-title {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+      }
   
   .services-top h3 {
     font-family: 'Montserrat', sans-serif;
@@ -118,12 +169,16 @@ html {
     font-size: 14px;
   }
   
-  .footer-item {
-    font-family: 'Montserrat';
-    font-size: 14px;
-  }
-  
   i.fas {
     height: 40%;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 50%;
   }
-  
+
+
+  .footer {
+    font-size: 0.9rem;
+    font-family: "Montserrat";
+    text-align: center;
+  }
