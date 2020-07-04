@@ -1,3 +1,6 @@
+autoprefixer-cli -o style.prefixed.css style.css
+html-validate .html
+
 {
   "extends": [
     "htmlvalidate:recommended"
@@ -8,3 +11,4 @@
     "void": ["warn", {"style": "omit"}]
   }
 }
+© 2020 GitHub, Inc.
