@@ -26,8 +26,12 @@ html {
   
   .nav-item text-warning {
     font-family: Wisdom-Script;
+    font-size: 35px;
   }
   
+  .col-md-9 {
+    font-size: 18px;
+  }
   .page-image  {
     height: 100vh;
     background-image: url("https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/header-bg.jpg?raw=true");
@@ -42,68 +46,37 @@ html {
   }
 
   .splash-inner {
-    margin: 24px 0;
+    margin: auto;
     max-width: 70%;
     text-align: center;
+    padding-top: 100px;
     
   }
   
-  @media (min-width: 768px){
   .page-title {
-    font-size: 2.25rem;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 1.2;
+    padding-top: 42px;
+    padding-bottom: 24px;
     font-family: 'Droid Serif Italic';
     font-weight: bold;
-    }
-  }
-
-.page-title {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 1.5rem;
-    margin-bottom: 25px;
-    font-family: "Droid Serif";
     text-align: center;
+    margin-bottom: 24px;
   }
 
-@media (min-width: 768px){
- .page-subtitle {
-    font-size: 4.5rem;
-      font-weight: 700;
-      line-height: 4.5rem;
-      margin-bottom: 4rem;
-        }
-    }
- .page-subtitle {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #ffffff;
-  background-position: center center;
-  background-size: cover;
-    }
-
-.page-subtitle {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat";
+  .page-subtitle {
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat";
+    line-height: 14px;
 }
-
-.page-subtitle {
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 4.5rem;
-  margin-bottom: 4rem;
-  }
-@media (min-width: 768px) {
- .page-title {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-      }
-  
+ 
   .services-top h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -178,7 +151,7 @@ html {
 
 
   .footer {
-    font-size: 0.9rem;
+    font-size: 15px;
     font-family: "Montserrat";
     text-align: center;
   }
