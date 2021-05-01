@@ -1,164 +1,152 @@
-<!DOCTYPE HTML>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>project-1</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet'>
+    <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <section class="page-image">
+
+    <nav class="splash">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="nav-item text-warning">Golden</div>
-                </div>
-                <div class="col-md-9">
-                    <ul class="list-inline text-right">
-                        <li class="list-inline-item text-white">HOME</li>
-                        <li class="list-inline-item text-white">PORTFOLIO</li>
-                        <li class="list-inline-item text-white">ABOUT</li>
-                        <li class="list-inline-item text-white">CONTACT</li>
-                    </ul>
+            <div class="menu-elements">
+                <div class="logo col-2">
+                    <img src="./images/Logo-Treehouse.png" />
                 </div>
 
-    <dix class="splash-inner d-flex flex-column align-items-center justify-content-center container ">
-            <h1 class="page-title text-center">Welcome To Our Studio!</h1>
-            <h2 class="page-subtitle text-uppercase text-center">IT'S NICE TO MEET YOU</h2>
-            <button class="btn btn-yellow btn-default text-uppercase">Tell me more</button>
+                <div class="menu col-10">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="splash-description">
+                <h1>Welcome To Our Studio!</h1>
+                <h1>IT'S NICE TO MEET YOU</h1>
+                <a href="#" class="btn">TELL ME MORE</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="service">
+        <div class="container">
+            <div class="services-title">
+                <p class="section-title">SERVICES</p>
+                <p class="section-description">Proin iaculis consequat sem cure</p>
+
+                <div class="services-elements">
+                    <div class="col-4 service-element">
+                        <i class="fas fa-shopping-basket"></i>
+                        <p>E-Commerce</p>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donex porttitora entum suscipit aenean
+                            rhoncus posuere odio in tincidunt</p>
+                    </div>
+
+                    <div class="col-4 service-element">
+                        <i class="fas fa-desktop"></i>
+                        <p>Responsive Web</p>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donex porttitora entum suscipit aenean
+                            rhoncus posuere odio in tincidunt</p>
+                    </div>
+
+                    <div class="col-4 service-element">
+                        <i class="fas fa-lock"></i>
+                        <p>Web Security</p>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donex porttitora entum suscipit aenean
+                            rhoncus posuere odio in tincidunt</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="services py-5">
+
+    <section class="portfolio">
         <div class="container">
-            <div class="services-top text-center">
-                <h3>SERVICES</h3>
-                <p>
-                Proin iaculis purus consequat sem cure.
-                </p>
-            </div>
-        <div class="services-content">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="item-circle text-center">
-                        <i class="fas fa-shopping-cart fa-3x"></i>
+            <div class="row portfolio-title">
+                <p class="section-title">OUR PORTFOLIO</p>
+                <p class="section-description">Proin iaculis consequat sem cure</p>
+
+                <div class="portfolio-elements">
+                    <div class="portfolio-element">
+                        <img src="./images/image1.png">
+                        <div class="portfolio-element-description">
+                            <p>Ebony & Ivory</p>
+                            <p>Branding</p>
+                        </div>
                     </div>
-                    <h4 class="title text-center">E-Commerce</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    </p>
+
+                    <div class="portfolio-element">
+                        <img src="./images/image2.png">
+                        <div class="portfolio-element-description">
+                            <p>Smart Stationary</p>
+                            <p>Print Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-element">
+                        <img src="./images/image3.png">
+                        <div class="portfolio-element-description">
+                            <p>Clever Poster</p>
+                            <p>Print Design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-element">
+                        <img src="./images/image4.png">
+                        <div class="portfolio-element-description">
+                            <p>Vinyl Record</p>
+                            <p>Product Mock-Up</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-element">
+                        <img src="./images/image5.png">
+                        <div class="portfolio-element-description">
+                            <p>Treehouse Template</p>
+                            <p>Web design</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-element">
+                        <img src="./images/image6.png">
+                        <div class="portfolio-element-description">
+                            <p>Burned Logo</p>
+                            <p>Branding</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="item-circle text-center">
-                        <i class="fas fa-laptop fa-3x"></i>
-                    </div>
-                    <h4 class="title text-center">Responsive Design</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <div class="item-circle text-center">
-                        <i class="fas fa-lock fa-3x"></i>
-                    </div>
-                    <h4 class="title text-center">Web Security</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    </p>
-                </div> 
             </div>
         </div>
     </section>
-    <section class="portfolio py-10">
+
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center py-5">
-                    <h1 class="h1">OUR PORTFOLIO</h1>
-                    <h2 class="h2">Proin ilacuis purus consequat sem cure. </h2>
-                </div>
+            <div>
+                <p>&copy; Copyright 2020 FreebiesXpress.com</p>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.bing.com/images/blob?bcid=RBh4vxDJ0o8BdQ"    alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Ebony & Ivory</h3>
-                            <h4>Branding</h4>
-                        </div>
-                    </div>
-                </div>    
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.bing.com/images/blob?bcid=RFAMyRzhNI8BdA" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Smart Stationary</h3>
-                            <h4>Print Desing</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/9d/22/3d/9d223dc5c3ba980bbdd7532d375ed3b4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Clever Poster</h3>
-                            <h4>Print Design</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.webdesigndev.com/wp-content/uploads/2014/07/Vinyl-Record-PSD-Mock-Up3.png"    alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Vinyl Record</h3>
-                            <h4>Product Mock-Up</h4>
-                        </div>
-                    </div>
-                </div>    
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="http://demo.cssmoban.com/cssthemes2/dgfp_10_cvf/images/port5.jpg " alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Treehouse Template</h3>
-                            <h4>Web Desing</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.bing.com/images/blob?bcid=ROEG-vYBLo8BEQ" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Burned Logo</h3>
-                            <h4>Branding</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>   
-    </section>
-    <section class="footer">
-        <div class="container">
-            <div class="row py-3 align-items-center">
-                <div class="col-md-6">
-                    <div class="footer-item text-left"><i class="fa fa-copyright"></i>Copyright 2014 FreebiesXpress.com</div>
-                </div>
-                <div class="col-md-6 text-center">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-twitter"></i></a>  
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-pinterest"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-google-plus"></i></a>
-                </div> 
+
+            <div class="icons">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-google-plus-g"></i>
             </div>
         </div>
-    </section>
+    </footer>
 </body>
+
 </html>
